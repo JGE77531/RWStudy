@@ -14,17 +14,17 @@
 
 <body>
     <p>하노이의 탑</p>
-    <input id="button_reset" type="button" value="초기화" onclick="init();">
+    <input onclick="init();" id="button_reset" type="button" value="초기화"">
 
-    <div class="parent" onclick="Function();">
-        <div id="first" class="box">
+    <div class="parent">
+        <div id="first" class="box" onclick="Div1();">
             <p id="f_text">first</p>
         </div>
-        <div id="second" class="box" >
-            <pid="s_text">second</p>
+        <div id="second" class="box" onclick="Div2();">
+            <p id="s_text">second</p>
         </div>
-        <div id="third" class="box" >
-            <pid="th_text">third</p>
+        <div id="third" class="box" onclick="Div3();">
+            <p id="th_text">third</p>
         </div>
     </div>
     
